@@ -16,7 +16,8 @@ Many applicants struggle to know how long their visa processing will take. This 
 ## 📂 Repository Structure
 
 AI-Enabled-Visa-Status-Prediction-and-Processing-Time-Estimator/
-│
+
+
 ├── AI Enabled Visa Status Prediction.py   # Main Python code
 
 ├── Visa_Dataset.csv                       # Raw dataset
