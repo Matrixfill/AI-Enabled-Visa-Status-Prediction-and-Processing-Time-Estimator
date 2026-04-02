@@ -123,7 +123,7 @@ df["processing_days"] = (
 🔹 Step 1: Install dependencies
 pip install -r requirements.txt
 
-Step 2: Run the app
+🔹 Step 2: Run the app
 python -m streamlit run Milestone_4.py
 
 ## 📄 License
