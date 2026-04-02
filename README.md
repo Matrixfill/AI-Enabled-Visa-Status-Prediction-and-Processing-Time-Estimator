@@ -13,21 +13,6 @@ Many applicants struggle to know how long their visa processing will take. This 
 ✔ Provide data insights and visualizations  
 ✔ Prepare for a deployment interface (web app)
 
-## 📂 Repository Structure
-
-AI-Enabled-Visa-Status-Prediction-and-Processing-Time-Estimator/
-
-
-├── AI Enabled Visa Status Prediction.py   # Main Python code
-
-├── Visa_Dataset.csv                       # Raw dataset
-
-├── README.md                              # Project documentation
-
-├── LICENSE                                # MIT License
-
-└── .gitignore                             # Files ignored by Git
-
 ## 🧠 Project Goals
 
 1. **Data Collection & Cleaning:**  
@@ -90,16 +75,10 @@ seaborn
 
 
 Install with:
-
-```bash
 pip install pandas numpy scikit-learn matplotlib seaborn
-```
 
 ### 3. Run the main script
-
-```bash
 python "AI Enabled Visa Status Prediction.py"
-```
 
 This script:
 
@@ -109,20 +88,14 @@ This script:
 * Trains a machine learning model
 * Outputs results
 
----
-
 ## 📈 Model & Evaluation
 
 The project uses machine learning regression models (like RandomForestRegressor) to predict processing time based on features.
+Model evaluation metrics:
+- MAE (Mean Absolute Error)
+- RMSE (Root Mean Squared Error)
+- R² Score
 
-Sample evaluation metrics include:
-
-```
-MAE: Mean Absolute Error
-R² Score: Model performance measure
-```
-
----
 
 ## 🧑‍💻 Example Code
 
@@ -144,9 +117,21 @@ df["processing_days"] = (
 ✔ Add confidence intervals to predictions
 ✔ Add user interface and dashboard
 
-## 📄 License
 
+## ⚡ 🚀 How to Run the Project
+
+🔹 Step 1: Install dependencies
+pip install -r requirements.txt
+
+Step 2: Run the app
+python -m streamlit run Milestone_4.py
+
+## 📄 License
 This project is licensed under the **MIT License**.
+
+🌐 ☁️ Deployment
+This project is deployed using Streamlit Cloud.
+👉 Make sure requirements.txt includes all dependencies.
 
 Deployment Link
 https://milestone4py-agfxzsiuicvuzqph5gezk7.streamlit.app/
